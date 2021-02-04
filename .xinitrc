@@ -51,6 +51,10 @@ fi
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto   #关于xrandr的这两行配置，每一行后面都不要加上"&"，否则nvidia驱动不能正常加载，会导致黑屏
 eval "$(dbus-launch --sh-syntax --exit-with-session)" &
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
 exec dwm
 
 #twm &
