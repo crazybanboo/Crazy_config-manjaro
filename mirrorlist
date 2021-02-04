@@ -1,0 +1,29 @@
+##
+## Manjaro Linux default mirrorlist
+## Generated on 2020-11-28 15:20
+##
+## Please use 'pacman-mirrors -f [NUMBER] [NUMBER]' to modify mirrorlist
+## (Use 0 for all mirrors)
+##
+
+## 中科大
+Server = https://mirrors.ustc.edu.cn/manjaro/stable/$repo/$arch
+
+##  清华大学
+Server = https://mirrors.tuna.tsinghua.edu.cn/manjaro/stable/$repo/$arch
+
+## 上海交通大学
+Server = https://mirrors.sjtug.sjtu.edu.cn/manjaro/stable/$repo/$arch
+
+## 浙江大学
+Server = https://mirrors.zju.edu.cn/manjaro/stable/$repo/$arch
+
+## Country : France
+Server = http://kibo.remi.lu/stable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/stable/$repo/$arch
+
+## Country : Russia
+Server = https://mirror.yandex.ru/mirrors/manjaro/stable/$repo/$arch
+
